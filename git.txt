@@ -1,0 +1,69 @@
+pwd    "Nerede olduğumu göster"
+
+ls   "Listele"
+ls -la   "Gizli dosyalarla birlikte listele"
+
+cd / cd ..   "Gezinme"
+
+rm    "Sil" 
+rm -rf    "zorla sil"
+
+touch   "Dosya oluştur"
+
+mkdir   "Directory oluştur"
+
+git status   "Git durumunu öğren"
+
+git config --global user.name   "Sisteme kayıtlı isim (yeni giriş için boşluk bırak tırnaklar arasında yaz)"
+
+git config --global user.email
+
+git init   "Git başlatma"
+
+git add   "Ekleme"
+
+git add .   "Hepsini ekle"
+
+git commit -m "message"   "Commit atma"
+
+git log   "Commit bilgileri görme"
+
+git restore (dosya adı)   "Restore yapma"
+
+git branch   "Hangi branchde olduğunu görme"
+
+git branch (isim)   "Yeni branch oluşturma"
+
+git switch (isim)   "İsimdeki branche geçme"
+
+git merge (branch ismi)   "İlgili branchı mevcut brancha birleştir"
+
+:wq   "Wim kapatma"
+
+git checkout (commit id)   "Başka commite gitme"
+
+git reset --hard (commit id)   "id commitine geri dön ve üstündeki tüm commitleri sil"
+
+git revert (commit id)   "Geçmişteki commiti geleceğe taşı (arada kalanlar yok olmadan)
+
+git stash   "Commit atılmamış değişiklikleri zulaya at"
+
+git stash list   "Zuladaki elemanları listele"
+
+git stash pop   "Zulayı aç (eski haline getir)
+
+git tag (isim)   "Etiket oluştur
+
+git tag   "Etiketi göster
+
+git remote add origin (link)   "Linki origin değişkenine ata"
+
+git push origin (branch adı)   "origin linkine branchı push yap"
+
+git clone (proje linki)   "Projeyi bilgisayara getir"
+
+git fetch   "Proje güncellemelerini kontrol et"
+
+git pull   "Güncellemeleri senkronize et"
+
+clear   "Temizle"
