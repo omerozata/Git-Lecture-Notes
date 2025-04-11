@@ -1,11 +1,11 @@
 pwd    "Nerede olduğumu göster"
 
-ls   "Listele"
+ls       "Listele"
 ls -la   "Gizli dosyalarla birlikte listele"
 
 cd / cd ..   "Gezinme"
 
-rm    "Sil" 
+rm        "Sil" 
 rm -rf    "zorla sil"
 
 touch   "Dosya oluştur"
