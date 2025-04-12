@@ -66,4 +66,6 @@ git fetch   "Proje güncellemelerini kontrol et"
 
 git pull   "Güncellemeleri senkronize et"
 
+touch .gitignore   gizli bir gitignore dosyası oluştur
+
 clear   "Temizle"
